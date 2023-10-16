@@ -2,10 +2,10 @@ import css from "@/styles/landing.module.css";
 export default function Home() {
   return (
     <div
-      className={`${css.root} flex flex-grow justify-center items-center relative`}
+      className={`${css.root} flex flex-grow justify-center items-center h-full`}
     >
-      <h2 className="text-7xl font-bold shadow-xl  bg-black p-4 rounded-xl flex gap-3 border">
-        Welcome<h2 className="text-blue-500">Pablo</h2>
+      <h2 className="text-7xl font-bold bg-black/60 flex justify-center items-center flex-grow h-full">
+        WELCOME<p className="text-blue-500"> Pablo</p>
       </h2>
     </div>
   );
