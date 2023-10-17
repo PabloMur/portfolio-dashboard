@@ -10,7 +10,7 @@ export default function MenuLi({ children, route }: any) {
   return (
     <li>
       <button
-        className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl shadow-lg"
+        className="text-white font-semibold py-2 px-4 shadow-lg"
         onClick={handleClick}
       >
         {children}

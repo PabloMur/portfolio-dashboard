@@ -8,10 +8,7 @@ export default function Logo() {
   };
 
   return (
-    <button
-      onClick={handleClick}
-      className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl shadow-lg"
-    >
+    <button onClick={handleClick} className="text-white font-bold py-2 px-4">
       <h4 className="cursor-pointer">
         Pablo Murillo - Fullstack Web Developer
       </h4>
