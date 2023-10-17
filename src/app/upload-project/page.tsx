@@ -2,7 +2,7 @@ import ProjectUploader from "@/components/ProjectUploader";
 import css from "@/styles/landing.module.css";
 export default function UploadProject() {
   return (
-    <div className="bg-red-800 flex flex-grow flex-col items-center justify-center">
+    <div className="flex flex-grow flex-col items-center justify-center">
       <div
         className={`${css.root} bg-green-400 h-40 w-full flex items-center justify-center`}
       >
